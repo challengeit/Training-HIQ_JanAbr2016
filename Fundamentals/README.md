@@ -35,3 +35,9 @@ Repository for versioning the **Java** projects and labs created during the trai
   	* Primitive types vs Reference Types
   	* What "static" keyword means
   * Start the "Shopping Cart" exercise for practice the topics.
+
+* **Day 4** (2015-01-14):
+  * Continue with the exercisse "ShoppingCart".
+  * Stack vs Heap.
+  * Java keywords.
+  * Methods and attributes' visibility.
