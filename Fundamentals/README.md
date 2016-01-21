@@ -41,3 +41,10 @@ Repository for versioning the **Java** projects and labs created during the trai
   * Stack vs Heap.
   * Java keywords.
   * Methods and attributes' visibility.
+
+* **Day 5** (2015-01-19):
+  * Conclusion of the theme "Methods and attributes visibility".
+  * Control flow and cycles.
+  * Primitive types.
+  * Variables declaration and initialization.
+  * Debug in Eclipse.
