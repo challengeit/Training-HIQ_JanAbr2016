@@ -29,7 +29,7 @@ public class ShoppingCart {
 		//if(!finish) {
 			if(!finish && cartSize < products.length) {
 				products[cartSize++] = product;
-				total += product.price;			
+				total += product.getPrice();			
 			}			
 		//}
 	}
@@ -37,8 +37,8 @@ public class ShoppingCart {
 	public void removeProduct(int id) {
 		if(finish) return;
 		for (int i = 0; i < products.length; i++) {
-			if(products[i].id == id) {
-				total -= products[i].price;
+			if(products[i].getId() == id) {
+				total -= products[i].getPrice();
 				products[i] = products[--cartSize];
 				products[cartSize] = null;
 				break;
@@ -57,7 +57,7 @@ public class ShoppingCart {
 	public void printProducts() {
 		for (int i = 0; i < products.length; i++) {
 			if(products[i] != null)
-				System.out.println(products[i].id);
+				System.out.println(products[i].getId());
 		}
 	}
 	
