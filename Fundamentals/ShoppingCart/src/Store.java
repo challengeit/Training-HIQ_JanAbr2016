@@ -4,22 +4,22 @@ public class Store {
 	public static void main(String[] args) {
 		
 		Customer customer = new Customer();
-		customer.name = "Diogo";
+		customer.setName("Diogo");
 		
 		Product p1 = new Product();
-		p1.id = 1;
-		p1.name = "Batatas";
-		p1.price = 2.3F;
+		p1.setId(1);
+		p1.setName("Batatas");
+		p1.setPrice(2.3F);
 		
 		Product p2 = new Product();
-		p2.id = 2;
-		p2.name = "Couves";
-		p2.price = 0.6F;
+		p2.setId(2);
+		p2.setName("Couves");
+		p2.setPrice(0.6F);
 		
 		Product p3 = new Product();
-		p3.id = 3;
-		p3.name = "Cenouras";
-		p3.price = 1.4F;
+		p3.setId(3);
+		p3.setName("Cenouras");
+		p3.setPrice(1.4F);
 		
 		ShoppingCart shoppingCart = new ShoppingCart();
 		shoppingCart.setCustomer(customer);
@@ -31,19 +31,19 @@ public class Store {
 		shoppingCart.setProducts(0);
 		
 		System.out.println("Total: " + shoppingCart.getTotal());
-		shoppingCart.getCustomer().name = "Ricardo";
-		System.out.println("Customer's Name: " + customer.name);
-		System.out.println("SC Customer's Name: " + shoppingCart.getCustomer().name);
+		shoppingCart.getCustomer().setName("Ricardo");
+		System.out.println("Customer's Name: " + customer.getName());
+		System.out.println("SC Customer's Name: " + shoppingCart.getCustomer().getName());
 		shoppingCart.printProducts();
 		
-		shoppingCart.removeProduct(p2.id);
+		shoppingCart.removeProduct(p2.getId());
 		//System.out.println(shoppingCart.products);
 		shoppingCart.printProducts();
 		
-		shoppingCart.removeProduct(p1.id);
+		shoppingCart.removeProduct(p1.getId());
 		shoppingCart.printProducts();
 		
-		shoppingCart.removeProduct(p3.id);
+		shoppingCart.removeProduct(p3.getId());
 		shoppingCart.printProducts();
 		
 		System.out.println("[B] isFinished? " + shoppingCart.isFinished());
@@ -53,7 +53,7 @@ public class Store {
 		shoppingCart.addProduct(p1);
 		shoppingCart.printProducts();
 		
-		shoppingCart.removeProduct(p1.id);
+		shoppingCart.removeProduct(p1.getId());
 		shoppingCart.printProducts();
 	}
 }
