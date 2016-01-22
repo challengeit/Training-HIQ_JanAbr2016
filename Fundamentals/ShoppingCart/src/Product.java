@@ -26,4 +26,22 @@ public class Product {
 	public void setPrice(float price) {
 		this.price = price;
 	}
+	
+	@Override
+	public String toString() {
+		return new StringBuilder("{id: ")
+				.append(this.getId())
+				.append(", name: ")
+				.append(this.getName())
+				.append(", price: ")
+				.append(this.getPrice())
+				.append("}")
+				.toString();
+	}
+	
+	@Override
+	public boolean equals(Object obj) {
+		return this.getId() == ((Product)obj).getId() && 
+			   this.getName().equals(((Product)obj).getName());
+	}
 }

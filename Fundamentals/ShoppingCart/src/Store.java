@@ -1,6 +1,6 @@
 
 public class Store {
-
+	
 	public static void main(String[] args) {
 		
 		Customer customer = new Customer();
@@ -11,10 +11,14 @@ public class Store {
 		p1.setName("Batatas");
 		p1.setPrice(2.3F);
 		
+		System.out.println(p1);
+		
 		Product p2 = new Product();
-		p2.setId(2);
-		p2.setName("Couves");
+		p2.setId(1);
+		p2.setName("Batatas");
 		p2.setPrice(0.6F);
+		
+		System.out.println(p1.equals(p2));
 		
 		Product p3 = new Product();
 		p3.setId(3);

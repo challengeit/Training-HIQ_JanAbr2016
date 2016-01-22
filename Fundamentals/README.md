@@ -17,7 +17,7 @@ Repository for versioning the **Java** projects and labs created during the trai
   * Links:
 	* [Eclipse](https://www.eclipse.org/)
 
-* **Day 2** (2015-01-07):
+* **Day 2** (2016-01-07):
   * Introduction to **Git**.
   * Setup **Github** accounts and remote repositories.
   * Introduction to topic "Thinking in Objects".
@@ -25,7 +25,7 @@ Repository for versioning the **Java** projects and labs created during the trai
 	* [Git](http://git-scm.com/)
 	* [Github](https://github.com/)
 
-* **Day 3** (2015-01-12):
+* **Day 3** (2016-01-12):
   * Continue with the topic "Thinking in Objects".
   * Introduction to following topics:
   	* Java Class
@@ -36,15 +36,22 @@ Repository for versioning the **Java** projects and labs created during the trai
   	* What "static" keyword means
   * Start the "Shopping Cart" exercise for practice the topics.
 
-* **Day 4** (2015-01-14):
+* **Day 4** (2016-01-14):
   * Continue with the exercisse "ShoppingCart".
   * Stack vs Heap.
   * Java keywords.
   * Methods and attributes' visibility.
 
-* **Day 5** (2015-01-19):
+* **Day 5** (2016-01-19):
   * Conclusion of the theme "Methods and attributes visibility".
   * Control flow and cycles.
   * Primitive types.
   * Variables declaration and initialization.
   * Debug in Eclipse.
+
+* **Day 6** (2016-01-21):
+  * Operators and prcedents.
+  * Casts and promotions of primitive types.
+  * String and StringBuilder.
+  * Operator == and the method equals.
+  * toString method.
