@@ -55,3 +55,10 @@ Repository for versioning the **Java** projects and labs created during the trai
   * String and StringBuilder.
   * Operator == and the method equals.
   * toString method.
+
+* **Day 7** (2016-01-26):
+  * Operator if/else, switch/case and ternary.
+  * Logic operators: AND, OR and negation.
+  * Arrays and multidimensionals arrays.
+  * Method overloading.
+  * Introduction to ArrayList.
