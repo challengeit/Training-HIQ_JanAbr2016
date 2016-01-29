@@ -62,3 +62,8 @@ Repository for versioning the **Java** projects and labs created during the trai
   * Arrays and multidimensionals arrays.
   * Method overloading.
   * Introduction to ArrayList.
+
+* **Day 8** (2016-01-28):
+  * Keyword static - fields, methods and import.
+  * Caller and worker method.
+  * Encapsulation and contructors.
