@@ -67,3 +67,11 @@ Repository for versioning the **Java** projects and labs created during the trai
   * Keyword static - fields, methods and import.
   * Caller and worker method.
   * Encapsulation and contructors.
+
+* **Day 9** (2016-02-02):
+  * Inheritance in Java.
+  * instanceof operator.
+  * Unit Testing introduction with [JUnit](http://junit.org/).
+  * Polymorphism in Java.
+  * Continuation in "ShoppingCart" exercise.
+  * Introduction to Java Interfaces.
