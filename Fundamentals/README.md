@@ -67,3 +67,11 @@ Repository for versioning the **Java** projects and labs created during the trai
   * Keyword static - fields, methods and import.
   * Caller and worker method.
   * Encapsulation and contructors.
+
+* **Day 9** (2016-02-02):
+  * Inheritance and Polymorphism.
+  * Access modifiers.
+  * Method override.
+  * Abstract classes and methods.
+  * final keyword in methods and classes.
+  * Template method pattern.
