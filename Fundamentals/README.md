@@ -74,4 +74,6 @@ Repository for versioning the **Java** projects and labs created during the trai
   * Method override.
   * Abstract classes and methods.
   * final keyword in methods and classes.
+  * instanceof operator.
   * Template method pattern.
+  * Unit Testing introduction with [JUnit](http://junit.org/).
