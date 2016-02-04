@@ -63,6 +63,8 @@ public class App {
 		strings.set(1, " EHEHE");
 		System.out.println("strings: " + strings);
 		
+		System.out.println(Parser.parseToString(strings));
+		
 		System.out.println(strings.size());
 		System.out.println(strings.isEmpty());
 		System.out.println(strings.remove(0));
