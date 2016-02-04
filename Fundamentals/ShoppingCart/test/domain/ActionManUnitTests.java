@@ -4,6 +4,7 @@ import org.junit.Assert;
 import org.junit.Test;
 
 import domain.toys.ActionMan;
+import domain.toys.BatteryToy;
 import domain.toys.Toy;
 
 public class ActionManUnitTests {
@@ -19,9 +20,16 @@ public class ActionManUnitTests {
 		Toy toy = new ActionMan(2, "ActionMan", 50.0F, 3, "Comando");
 		Assert.assertEquals(2, toy.getId());
 		Assert.assertTrue(toy instanceof ActionMan);
+		Assert.assertTrue(toy instanceof BatteryToy);
+		Assert.assertTrue(toy instanceof PortableDevice);
+		Assert.assertTrue(toy instanceof Chef);
+		
 		Assert.assertEquals("Comando", ((ActionMan)toy).getType());
 		
 		System.out.println(actionMan);
 		System.out.println(toy.toString());
+		
+		((PortableDevice)toy).m1();
+		((BatteryToy)toy).m1();
 	}
 }

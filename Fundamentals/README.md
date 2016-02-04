@@ -77,3 +77,8 @@ Repository for versioning the **Java** projects and labs created during the trai
   * instanceof operator.
   * Template method pattern.
   * Unit Testing introduction with [JUnit](http://junit.org/).
+
+* **Day 10** (2016-02-04):
+  * Resume abstract classes and abstract methods.
+  * Interfaces.
+  * Exceptions and Errors.

@@ -1,8 +1,9 @@
 package domain.toys;
 
+import domain.PortableDevice;
 import domain.Product;
 
-public abstract class Toy extends Product {
+public abstract class Toy extends Product implements BatteryToy {
 	
 	private int minimumAge;
 	
@@ -31,5 +32,10 @@ public abstract class Toy extends Product {
 	@Override
 	public float calculateIVA() {
 		return 1.23F;
+	}
+	
+	@Override
+	public int getStatus() {
+		return 100;
 	}
 }
