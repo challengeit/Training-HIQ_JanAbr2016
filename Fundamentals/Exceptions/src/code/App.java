@@ -26,14 +26,20 @@ public class App {
 		}
 		
 		{
-			int hexa = 0x898989;
-			
-//			String String = "String";
-			try {
-				Util.multipleExceptions("text.txtt");
-			} catch (IOException e) {
-				System.out.println("Ficheiro não encontrado.");
-			}
+//			int hexa = 0x898989;
+//			
+////			String String = "String";
+//			try {
+//				Util.multipleExceptions("text.txtt");
+//			} catch (IOException e) {
+//				System.out.println("Ficheiro não encontrado.");
+//			}
+		}
+		
+		{
+			int a = 10, b = 2;
+			int c = b---a;
+			System.out.println(c);
 		}
 	}
 }

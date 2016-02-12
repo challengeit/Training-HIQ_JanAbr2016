@@ -82,3 +82,6 @@ Repository for versioning the **Java** projects and labs created during the trai
   * Resume abstract classes and abstract methods.
   * Interfaces.
   * Exceptions and Errors.
+
+* **Day 11** (2016-02-11):
+  * First serie of exercises to exam 1z0-803.
