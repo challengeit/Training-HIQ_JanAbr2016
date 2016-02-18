@@ -85,3 +85,9 @@ Repository for versioning the **Java** projects and labs created during the trai
 
 * **Day 11** (2016-02-11):
   * First serie of exercises to exam 1z0-803.
+
+* **Day 12** (2016-02-16):
+  * Mock exam 1z0-803.
+
+* **Day 13** (2016-02-18): 
+  * Correction of mock exam.
