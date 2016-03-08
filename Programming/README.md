@@ -20,3 +20,9 @@ Repository for versioning the **Java** projects and labs created during the trai
   * Nested classes.
   * *final* and *static* keywords.
   * Enums in Java.
+
+* **Day 3** (2016-03-08):
+  * Java interfaces review.
+  * Inheritance of interfaces.
+  * Objects composition.
+  * Generics in Java.
