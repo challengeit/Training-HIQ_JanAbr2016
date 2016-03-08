@@ -1,5 +1,7 @@
 package model;
 
+//import static model.Gender.*;
+
 import java.util.Date;
 
 import org.joda.time.LocalDate;
@@ -11,16 +13,29 @@ public abstract class Person {
 	private String name;
 	private final Date birthday;
 	private String address;
+	private Gender gender;
 	
 	public Person(Date birthday) {
 		super();
 		this.birthday = birthday;
 	}
 	
-	public Person(Date birthday, String name, String address) {
+	public Person(Date birthday, String name, String address, Gender gender) {
 		this(birthday);
 		setName(name);
 		setAddress(address);
+		setGender(gender);
+		System.out.println(gender.getDescription());
+		
+		gender = Gender.M;
+	}
+	
+	public Gender getGender() {
+		return gender;
+	}
+	
+	public void setGender(Gender gender) {
+		this.gender = gender;
 	}
 	
 	public void setName(String name) {
@@ -64,4 +79,19 @@ public abstract class Person {
 		
 		return this.getName().equals(((Person)obj).getName());
 	}
+	
+	enum SimpleGender { C, D; } 
+	
+	public void abc() {
+		model.SimpleGender a = model.SimpleGender.F;
+		SimpleGender b = Person.SimpleGender.C;
+	
+		switch(gender) {
+		case M: System.out.println("M"); break;
+		case F: System.out.println("F"); break;
+		}
+	}
+	
+	
 }
+
