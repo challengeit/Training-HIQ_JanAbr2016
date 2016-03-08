@@ -18,3 +18,5 @@ Repository for versioning the **Java** projects and labs created during the trai
   * Create the **Logger** project.
   * Associate one project to another existing project on Eclipse.
   * Nested classes.
+  * *final* and *static* keywords.
+  * Enums in Java.
