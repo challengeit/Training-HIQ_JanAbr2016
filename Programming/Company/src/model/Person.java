@@ -1,8 +1,9 @@
 package model;
 
 //import static model.Gender.*;
-
+import java.util.ArrayList;
 import java.util.Date;
+import java.util.List;
 
 import org.joda.time.LocalDate;
 import org.joda.time.Period;
@@ -14,6 +15,8 @@ public abstract class Person {
 	private final Date birthday;
 	private String address;
 	private Gender gender;
+	
+	private List<Hobby> hobbies;
 	
 	public Person(Date birthday) {
 		super();
@@ -61,6 +64,17 @@ public abstract class Person {
 		Period period = new Period(birthdayD, now, PeriodType.yearMonthDay());
 		return period.getYears();
 	}
+	
+	public List<Hobby> getHobbies() {
+		return hobbies;
+	}
+	
+	public void addHobby(Hobby hobby) {
+		if(hobbies == null)
+			hobbies = new ArrayList<Hobby>();
+		
+		hobbies.add(hobby);
+	}
 
 	@Override
 	public int hashCode() {
@@ -92,6 +106,19 @@ public abstract class Person {
 		}
 	}
 	
-	
+	public class Hobby {
+		
+		private final String name;
+		
+		public Hobby(String name) {
+			this.name = name;
+		}
+		
+		@Override
+		public String toString() {			
+//			return Person.this.name + ":" + name;
+			return getName() + ":" + name;
+		}
+	}
 }
 
