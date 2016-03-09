@@ -11,7 +11,7 @@ public abstract class Employee extends Person {
 	}
 	
 	public Employee(Date birthday, String name, String address, int id) {
-		super(birthday, name, address);
+		super(birthday, name, address, Gender.M);
 		this.id = id;
 	}
 	
