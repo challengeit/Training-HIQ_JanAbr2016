@@ -26,3 +26,7 @@ Repository for versioning the **Java** projects and labs created during the trai
   * Inheritance of interfaces.
   * Objects composition.
   * Generics in Java.
+
+* **Day 4** (2016-03-10):
+  * Java Collections.
+  * Exceptions - multicatch, try-with-resources and finally.
