@@ -30,3 +30,12 @@ Repository for versioning the **Java** projects and labs created during the trai
 * **Day 4** (2016-03-10):
   * Java Collections.
   * Exceptions - multicatch, try-with-resources and finally.
+
+* **Day 5** (2016-03-15):
+  * Continuation of Exceptions.
+  * AutoCloseable and Closable interfaces.
+  * Assertions in Java. (*assert* keyword)
+  * Strings: StringTokenizer, split method, main args, StringBuilder/StringBuffer.
+  * Property files.
+  * Regular Expressions.
+    * Link to official Oracle documentation: [Regex](https://docs.oracle.com/javase/tutorial/essential/regex/index.html)
