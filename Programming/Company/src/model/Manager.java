@@ -4,12 +4,12 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-public class Manager extends Employee {
+public abstract class Manager extends Employee {
 	
 	private List<Employee> employees;
 	
-	public Manager(Date birthday, String name, String address, int id) {
-		super(birthday, name, address, id);
+	public Manager(Date birthday, String name, String address, int id, Gender gender) {
+		super(birthday, name, address, id, gender);
 	}
 	
 	public boolean addEmployee(Employee emp) {

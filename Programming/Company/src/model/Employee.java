@@ -2,16 +2,16 @@ package model;
 
 import java.util.Date;
 
-public abstract class Employee extends Person {
+public class Employee extends Person {
 	
 	private final int id;
 	
 	public Employee(Date birthday, int id) {
-		this(birthday, null, null, id);
+		this(birthday, null, null, id, null);
 	}
 	
-	public Employee(Date birthday, String name, String address, int id) {
-		super(birthday, name, address);
+	public Employee(Date birthday, String name, String address, int id, Gender gender) {
+		super(birthday, name, address, gender);
 		this.id = id;
 	}
 	
