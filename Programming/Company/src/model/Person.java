@@ -28,7 +28,6 @@ public abstract class Person {
 		setName(name);
 		setAddress(address);
 		setGender(gender);
-		System.out.println(gender.getDescription());
 		
 		gender = Gender.M;
 	}
