@@ -36,6 +36,7 @@ Repository for versioning the **Java** projects and labs created during the trai
   * AutoCloseable and Closable interfaces.
   * Assertions in Java. (*assert* keyword)
   * Strings: StringTokenizer, split method, main args, StringBuilder/StringBuffer.
+    * [Formatter](https://docs.oracle.com/javase/7/docs/api/java/util/Formatter.html)
   * Property files.
   * Regular Expressions.
     * Link to official Oracle documentation: [Regex](https://docs.oracle.com/javase/tutorial/essential/regex/index.html)
