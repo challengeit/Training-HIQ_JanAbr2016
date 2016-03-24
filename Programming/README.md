@@ -40,3 +40,12 @@ Repository for versioning the **Java** projects and labs created during the trai
   * Property files.
   * Regular Expressions.
     * Link to official Oracle documentation: [Regex](https://docs.oracle.com/javase/tutorial/essential/regex/index.html)
+
+* **Day 6** (2016-03-22):
+  * Regular Expressions exercises.
+  * Exam sample exercises about Strings.
+
+* **Day 7** (2016-03-24):
+  * Java I/O fundamentals.
+  * Byte streams vs Character streams.
+ 
