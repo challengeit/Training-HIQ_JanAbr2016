@@ -49,3 +49,6 @@ Repository for versioning the **Java** projects and labs created during the trai
   * Java I/O fundamentals.
   * Byte streams vs Character streams.
  
+* **Day 8** (2016-03-29):
+  * Java NIO.
+  * Exercises and examples.
