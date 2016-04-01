@@ -1,0 +1,3 @@
+username=ricardo
+password=pass
+db_url:mysql://root:pass@localhost/table
