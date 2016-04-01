@@ -60,7 +60,7 @@ Repository for versioning the **Java** projects and labs created during the trai
   * Synchronized blocks.
   * Deadlock, starvation, livelock.
   * Links:
-   * [Monitor](https://en.wikipedia.org/wiki/Monitor_(synchronization))
-   * [Java Concurrency in Practice](http://www.amazon.com/Java-Concurrency-Practice-Brian-Goetz/dp/0321349601)
-   * [Java lesson](https://docs.oracle.com/javase/tutorial/essential/concurrency/index.htmld)
+    * [Monitor](https://en.wikipedia.org/wiki/Monitor_(synchronization))
+    * [Java Concurrency in Practice](http://www.amazon.com/Java-Concurrency-Practice-Brian-Goetz/dp/0321349601)
+    * [Java lesson](https://docs.oracle.com/javase/tutorial/essential/concurrency/index.htmld)
 
