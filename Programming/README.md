@@ -52,3 +52,15 @@ Repository for versioning the **Java** projects and labs created during the trai
 * **Day 8** (2016-03-29):
   * Java NIO.
   * Exercises and examples.
+ 
+* **Day 9** (2016-03-31):
+  * Processes vs Threads.
+  * Shared Data between threads.
+  * Volatile keyword.
+  * Synchronized blocks.
+  * Deadlock, starvation, livelock.
+  * Links:
+    * [Monitor](https://en.wikipedia.org/wiki/Monitor_(synchronization))
+    * [Java Concurrency in Practice](http://www.amazon.com/Java-Concurrency-Practice-Brian-Goetz/dp/0321349601)
+    * [Java lesson](https://docs.oracle.com/javase/tutorial/essential/concurrency/index.htmld)
+
