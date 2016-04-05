@@ -1,26 +1,25 @@
 package threads;
 
+import java.util.concurrent.atomic.AtomicInteger;
+
 public class Counter {
 	
-	private volatile int _counter;
-	
-//	private final Object monitor = new Object();
+	private AtomicInteger _counter;
 	
 	public Counter(int initValue) {
-		_counter = initValue;
+		_counter = new AtomicInteger(initValue);
 	}
 	
 	public void increment() {
-//		synchronized (monitor) {
-//			_counter++;			
-//		}
-		System.out.println("invoked");
-		synchronized (this) {
-			_counter++;			
-		}
+		_counter.incrementAndGet();
+	}
+	
+	public void incrementIfEqualThan(int value) {
+		int val = _counter.get() +1;
+		_counter.compareAndSet(value, val);
 	}
 	
 	public int getValue() {
-		return _counter;
+		return _counter.get();
 	}
 }
